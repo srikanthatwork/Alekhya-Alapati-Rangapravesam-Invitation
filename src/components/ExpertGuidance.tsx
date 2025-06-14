@@ -49,30 +49,28 @@ const ExpertGuidance = () => {
             </div>
             <div className="prose prose-lg max-w-none text-stone-700">
               <h3 className="text-2xl text-amber-800 font-semibold mb-6">
-                Guru Smt. Manju Hema Malini Chavali
+                Guru Smt. Manju Hemamalini Chavali
               </h3>
               <p>
-                The Artistic Director of the Guru Parampara School of Arts, is a
-                distinguished Kuchipudi teacher dedicated to this classical
-                dance form. She began her training at age 5 in Andhra Pradesh
-                and became a resident student of the renowned Guru Padmabhushan
-                Dr. Vempati Chinna Satyam at 13.
+                Guru Smt Manju Hemamalini Chavali is a highly accomplished
+                Kuchipudi dancer, instructor and choreographer with many notable
+                performances and choreography to her credit. She is a senior
+                disciple of Guru Padmabhushan Vempati Chinna Satyam and was
+                under his tutelage for 12 years. While at her Guru’s Kuchipudi
+                Art Academy she had a noteworthy achievement of starting a
+                career in teaching at the age of 18. A proud recipient of
+                numerous awards including Natya Visharada and the recent Sang
+                Ratu Ugrasena from Indonesia, she holds a Master’s degree in
+                Performing Arts from the Central University of Hyderabad and is
+                recognized as a Grade A Doordarshan artist.
               </p>
-              <p>
-                After advancing her skills in Chennai, she took on the role of
-                resident instructor at 18 and built a successful career in
-                teaching, performing, and choreography, creating over 30
-                original pieces and numerous dance ballets. She holds a Master's
-                in Performing Arts and is recognized as a Grade A Doordarshan
-                artist. In 2011, she established the Guru Parampara School of
-                Arts in the Dallas Fort Worth area, committed to sharing the
-                authentic spirit of Kuchipudi with rasikas. Guru Hema frequently
-                collaborates with masters of other Indian dance forms, fostering
-                innovation and promoting kindness through art. Her recent
-                performances abroad reflect her commitment to cultural exchange
-                and artistic collaboration. She also offers her students
-                opportunities to showcase their talent on international stages,
-                including Indonesia, Greece, Sri Lanka, and India.
+              <p className='mt-2'>
+                She established the Guru Parampara School of Arts in the
+                Dallas Fort Worth area in 2011 with a commitment to share the
+                authentic spirit of Kuchipudi and has trained many students ever
+                since. She frequently collaborates with masters of other Indian
+                dance forms, fostering innovation and promoting kindness through
+                art.
               </p>
             </div>
           </div>

@@ -1,5 +1,5 @@
-import React, { useState, useEffect } from 'react';
-import { Menu, X } from 'lucide-react';
+import React, { useState, useEffect } from "react";
+import { Menu, X } from "lucide-react";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -16,18 +16,16 @@ const Navbar = () => {
 
     window.addEventListener("scroll", handleScroll);
     return () => window.removeEventListener("scroll", handleScroll);
-  }, [
-  
-  ]);
+  }, []);
 
   const navItems = [
-    { name: 'Home', href: '#home' },
-    { name: 'Live Stream', href: '#live-stream' },
-    { name: 'Program Guide', href: '#program-guide' },
-    { name: 'Biography', href: '#biography' },
-    { name: 'Expert Guidance', href: '#expert-guidance' },
-    { name: 'Academic', href: '#academic' },
-    { name: 'Kuchipudi', href: '#cultural' }
+    { name: "Home", href: "#home" },
+    { name: "Live Stream", href: "#live-stream" },
+    { name: "Program Guide", href: "#program-guide" },
+    { name: "About ", href: "#About" },
+    { name: "Expert Guidance", href: "#expert-guidance" },
+    { name: "Academic", href: "#academic" },
+    { name: "Kuchipudi", href: "#cultural" },
   ];
 
   return (
