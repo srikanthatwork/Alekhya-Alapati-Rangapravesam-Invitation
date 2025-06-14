@@ -1,7 +1,7 @@
 import React, { useEffect, useRef } from 'react';
 import Alekhya from "../../Public/assets/images/Alekhya.png";
 
-const Biography = () => {
+const About = () => {
   const bioRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
@@ -30,14 +30,14 @@ const Biography = () => {
   }, []);
 
   return (
-    <section id="biography" className="py-20 bg-white">
+    <section id="About" className="py-20 bg-white">
       <div
         ref={bioRef}
         className="container mx-auto px-4 sm:px-6 lg:px-8 transition-all duration-1000 transform opacity-0 translate-y-10"
       >
         <div className="max-w-6xl mx-auto mt-20">
           <h2 className="text-3xl md:text-4xl text-amber-800 font-bold text-center mb-12">
-            Biography
+            About Alekhya
           </h2>
 
           <div className="grid md:grid-cols-2 gap-12 mb-16">
@@ -50,13 +50,13 @@ const Biography = () => {
             </div>
             <div className="prose prose-lg max-w-none text-stone-700 leading-relaxed">
               <p className="mb-6">
-                Alekhya began her Kuchipudi journey at the age of 4 under the
-                guidance of Guru Neelima Gaddamanugu. After 2 years, she
-                continued her training with Guru Smt. Revathi Komanduri, where
-                she built a strong foundation in the classical art form. In
-                2017, after moving to Dallas, Alekhya resumed her tutelage under
-                Guru Smt. Manju Hema Malini Chavali, with whom she continues to
-                learn and grow as a dancer.
+                <strong>Alekhya</strong> began her Kuchipudi journey at the age of 4
+                under the guidance of Guru Neelima Gaddamanugu. After 2 years,
+                she continued her training with Guru Smt. Revathi Komanduri,
+                where she built a strong foundation in the classical art form.
+                In 2017, after moving to Dallas, Alekhya resumed her tutelage
+                under Guru Smt. Manju Hema Malini Chavali, with whom she
+                continues to learn and grow as a dancer.
               </p>
 
               <p className="mb-6">
@@ -77,7 +77,7 @@ const Biography = () => {
                 <footer className="text-right mt-2">- Alekhya Alapati</footer>
               </blockquote>
 
-              <p className="mb-6">
+              <p className="mb-2">
                 Alekhya will be attending Case Western Reserve University, where
                 she plans to study Biomedical Engineering to pursue her
                 aspirations in the medical field. She also intends to continue
@@ -98,4 +98,4 @@ const Biography = () => {
   );
 };
 
-export default Biography;
+export default About;

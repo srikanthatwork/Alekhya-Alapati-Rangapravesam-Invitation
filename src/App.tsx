@@ -6,12 +6,12 @@ import EventBanner from './components/EventBanner';
 import CountdownTimer from './components/CountdownTimer';
 import LiveStream from './components/LiveStream';
 import ProgramGuide from './components/ProgramGuide';
-import Biography from './components/Biography';
 import ExpertGuidance from './components/ExpertGuidance';
 import Academic from './components/Academic';
 import Cultural from './components/Cultural';
 import Closing from './components/Closing';
 import Footer from './components/Footer';
+import About from './components/Biography.tsx';
 
 function App() {
   return (
@@ -23,7 +23,7 @@ function App() {
         <CountdownTimer />
         <LiveStream />
         <ProgramGuide />
-        <Biography />
+        <About />
         <ExpertGuidance />
         <Academic />
         <Cultural />
