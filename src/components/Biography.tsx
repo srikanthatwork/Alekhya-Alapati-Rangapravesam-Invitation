@@ -35,7 +35,7 @@ const About = () => {
         ref={bioRef}
         className="container mx-auto px-4 sm:px-6 lg:px-8 transition-all duration-1000 transform opacity-0 translate-y-10"
       >
-        <div className="max-w-6xl mx-auto mt-20">
+        <div className="max-w-6xl mx-auto mt-[100px]">
           <h2 className="text-3xl md:text-4xl text-amber-800 font-bold text-center mb-12">
             About Alekhya
           </h2>
