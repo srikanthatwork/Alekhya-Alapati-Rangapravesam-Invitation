@@ -151,7 +151,7 @@ const Hero = () => {
                   href="#program-guide"
                   className="px-8 py-3 bg-transparent hover:bg-amber-800/50 border-2 border-amber-400 text-amber-100 rounded-md transition-all duration-300 text-lg font-semibold"
                 >
-                  View Program
+                  View Program Guide
                 </a>
               </div>
             </div>

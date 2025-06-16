@@ -99,7 +99,7 @@ const EventBanner = () => {
 
             <EventModal>
               <button className="px-3 py-2 bg-amber-600 hover:bg-amber-700 rounded-md transition-colors duration-300">
-                CHECK EVENT
+                 EVENT DETAILS
               </button>
             </EventModal>
           </div>
