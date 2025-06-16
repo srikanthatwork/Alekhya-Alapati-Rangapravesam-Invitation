@@ -1,5 +1,5 @@
 import React, { useEffect, useRef } from 'react';
-import AlekhyaGuru from "../../Public/assets/images/AlekhyaGuru.png"
+import AlekhyaGuru from "../Public/assets/images/AlekhyaGuru.png"
 const ExpertGuidance = () => {
   const sectionRef = useRef<HTMLDivElement>(null);
 
@@ -40,11 +40,11 @@ const ExpertGuidance = () => {
           </h2>
 
           <div className="grid md:grid-cols-2 gap-12 items-center">
-            <div>
+            <div className="flex justify-center md:justify-start w-full">
               <img
                 src={AlekhyaGuru}
                 alt="Guru Smt. Manju Hema Malini Chavali"
-                className="rounded-lg shadow-lg w-full h-[450px]"
+                className="rounded-lg shadow-lg w-full max-w-[300px] sm:max-w-[350px] md:max-w-[400px] lg:max-w-[450px] h-[350px] sm:h-[400px] md:h-[450px] object-cover"
               />
             </div>
             <div className="prose prose-lg max-w-none text-stone-700">
@@ -64,13 +64,12 @@ const ExpertGuidance = () => {
                 Performing Arts from the Central University of Hyderabad and is
                 recognized as a Grade A Doordarshan artist.
               </p>
-              <p className='mt-2'>
-                She established the Guru Parampara School of Arts in the
-                Dallas Fort Worth area in 2011 with a commitment to share the
-                authentic spirit of Kuchipudi and has trained many students ever
-                since. She frequently collaborates with masters of other Indian
-                dance forms, fostering innovation and promoting kindness through
-                art.
+              <p className="mt-2">
+                She established the Guru Parampara School of Arts in the Dallas
+                Fort Worth area in 2011 with a commitment to share the authentic
+                spirit of Kuchipudi and has trained many students ever since.
+                She frequently collaborates with masters of other Indian dance
+                forms, fostering innovation and promoting kindness through art.
               </p>
             </div>
           </div>

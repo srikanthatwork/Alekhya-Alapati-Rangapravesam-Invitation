@@ -65,7 +65,7 @@ const LiveStream = () => {
         ref={sectionRef}
         className="container mx-auto px-4 sm:px-6 lg:px-8 transition-all duration-1000 transform opacity-0 translate-y-10"
       >
-        <div className="max-w-4xl mx-auto text-center mt-20">
+        <div className="max-w-4xl mx-auto text-center mt-[70px]">
           <h2 className="text-3xl md:text-4xl font-bold mb-8">
             Watch Live Performance
           </h2>
@@ -108,7 +108,7 @@ const LiveStream = () => {
             </div>
           </div>
 
-          <div className="grid md:grid-cols-3 gap-6 text-center">
+          {/* <div className="grid md:grid-cols-3 gap-6 text-center">
             <div className="bg-white/10 backdrop-blur-sm rounded-lg p-6">
               <h4 className="font-semibold text-lg mb-2">High Quality</h4>
               <p className="text-amber-100 text-sm">
@@ -127,7 +127,7 @@ const LiveStream = () => {
                 Watch from anywhere in the world on any device
               </p>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </section>

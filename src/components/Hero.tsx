@@ -1,5 +1,5 @@
 import React, { useEffect, useRef } from 'react';
-import Alekhya from "../../Public/assets/images/Alekhya.png"
+import Alekhya from "../Public/assets/images/Alekhya.png"
 const Hero = () => {
   const heroRef = useRef<HTMLDivElement>(null);
   
@@ -78,7 +78,7 @@ const Hero = () => {
 
             {/* Right side - Event details */}
             <div className="order-1 lg:order-2 text-left lg:text-left ml-5 mt-7 p-7">
-              <div className="mt-10">
+              <div className="mt-[50px]">
                 <p className="text-amber-200 text-lg mb-2 font-light">
                   Manjula & Satish Alapati
                 </p>

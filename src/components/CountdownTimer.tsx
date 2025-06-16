@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { differenceInDays, differenceInHours, differenceInMinutes, differenceInSeconds } from 'date-fns';
 
 const CountdownTimer = () => {
-  const eventDate = new Date('2025-06-28T08:00:00');
+  const eventDate = new Date('2025-06-28T15:00:00');
   const [timeLeft, setTimeLeft] = useState({
     days: 0,
     hours: 0,
