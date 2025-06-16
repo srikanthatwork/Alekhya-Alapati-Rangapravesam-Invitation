@@ -65,7 +65,7 @@ const LiveStream = () => {
         ref={sectionRef}
         className="container mx-auto px-4 sm:px-6 lg:px-8 transition-all duration-1000 transform opacity-0 translate-y-10"
       >
-        <div className="max-w-4xl mx-auto text-center mt-[70px]">
+        <div className="max-w-4xl mx-auto text-center mt-[100px]">
           <h2 className="text-3xl md:text-4xl font-bold mb-8">
             Watch Live Performance
           </h2>
