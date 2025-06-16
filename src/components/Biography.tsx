@@ -1,5 +1,5 @@
 import React, { useEffect, useRef } from 'react';
-import Alekhya from "../../Public/assets/images/Alekhya.png";
+import Alekhya from "../Public/assets/images/Alekhya.png";
 
 const About = () => {
   const bioRef = useRef<HTMLDivElement>(null);

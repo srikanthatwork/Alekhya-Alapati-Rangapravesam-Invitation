@@ -1,6 +1,6 @@
-import React from 'react';
-import * as Dialog from '@radix-ui/react-dialog';
-import { X, Calendar, MapPin, Clock } from 'lucide-react';
+import React from "react";
+import * as Dialog from "@radix-ui/react-dialog";
+import { X, Calendar, MapPin, Clock } from "lucide-react";
 
 interface EventModalProps {
   children: React.ReactNode;
@@ -8,18 +8,32 @@ interface EventModalProps {
 
 const EventModal = ({ children }: EventModalProps) => {
   const address = "Coppell Arts Center, 505 Travis St, Coppell, TX 75019";
-  const mapsUrl = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(address)}`;
+  const address2 =
+    "Courtyard, 2200 Bass Pro Court, Grapevine, TX 76051";
+
+  const mapsUrl = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(
+    address
+  )}`;
+  const mapsUrl2 = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(
+    address2
+  )}`;
+
 
   const addToCalendar = () => {
     const event = {
       text: "Alekhya Alapati's Rangapravesam",
       dates: "20250628T080000/20250628T220000",
       location: "Coppell Arts Center, 505 Travis St, Coppell, TX 75019",
-      details: "Join us for Alekhya Alapati's Rangapravesam, marking her formal debut as a Kuchipudi dancer."
+      details:
+        "Join us for Alekhya Alapati's Rangapravesam, marking her formal debut as a Kuchipudi dancer.",
     };
 
-    const googleUrl = `https://calendar.google.com/calendar/render?action=TEMPLATE&text=${encodeURIComponent(event.text)}&dates=${event.dates}&location=${encodeURIComponent(event.location)}&details=${encodeURIComponent(event.details)}`;
-    window.open(googleUrl, '_blank');
+    const googleUrl = `https://calendar.google.com/calendar/render?action=TEMPLATE&text=${encodeURIComponent(
+      event.text
+    )}&dates=${event.dates}&location=${encodeURIComponent(
+      event.location
+    )}&details=${encodeURIComponent(event.details)}`;
+    window.open(googleUrl, "_blank");
   };
 
   return (
@@ -58,6 +72,19 @@ const EventModal = ({ children }: EventModalProps) => {
                   Coppell Arts Center
                   <br />
                   505 Travis St, Coppell, TX 75019
+                </a>
+              </div>
+              <div className="flex items-start gap-3 text-amber-800">
+                <MapPin size={20} className="mt-1" />
+                <a
+                  href={mapsUrl2}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="font-semibold hover:text-amber-600 transition-colors duration-300"
+                >
+                  Dinner at Courtyard
+                  <br />
+                  2200 Bass Pro Court, Grapevine, TX 76051
                 </a>
               </div>
             </div>
