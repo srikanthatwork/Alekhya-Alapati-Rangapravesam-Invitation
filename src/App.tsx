@@ -15,15 +15,15 @@ import About from "./components/Biography.tsx";
 
 function App() {
   return (
-    <div className="min-h-screen bg-amber-50 text-stone-800 font-serif">
+    <div className="min-h-screen bg-amber-50 text-stone-800 font-serif w-full">
       <Navbar />
       <EventBanner />
       <main>
-        <Hero />
+         <Hero />
         <LiveStream />
         <CountdownTimer />
         <ProgramGuide />
-        <About />
+        <About /> 
         <ExpertGuidance />
         {/* <Academic /> */}
         <Cultural />

@@ -115,7 +115,7 @@ const Navbar = () => {
     { name: "Live Stream", href: "#live-stream" },
     { name: "Program Guide", href: "#program-guide" },
     { name: "About", href: "#About" },
-    { name: "Expert Guidance", href: "#expert-guidance" },
+    { name: "Guru", href: "#expert-guidance" },
     { name: "Kuchipudi", href: "#cultural" },
   ];
 
