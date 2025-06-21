@@ -52,9 +52,9 @@ const CountdownTimer = () => {
           <h2 className="text-2xl md:text-3xl font-display mb-8">
             Countdown to Rangapravesam
           </h2>
-          <div className="flex justify-center items-center gap-4 md:gap-8 flex-wrap">
+          <div className="flex justify-center items-center gap-8  flex-nowrap px-4">
             {timeUnits.map(({ label, value }) => (
-              <div key={label} className="text-center min-w-[100px]">
+              <div key={label} className="text-center max-w-[100px]">
                 <div className="text-3xl md:text-5xl font-display font-bold mb-2">
                   {String(value).padStart(2, '0')}
                 </div>

@@ -1,4 +1,4 @@
-import React, { useEffect, useRef } from 'react';
+import React, { useEffect, useRef } from "react";
 import Alekhya from "../Public/assets/images/Alekhya.png";
 
 const About = () => {
@@ -8,20 +8,20 @@ const About = () => {
     const observer = new IntersectionObserver(
       ([entry]) => {
         if (entry.isIntersecting) {
-          entry.target.classList.add('opacity-100', 'translate-y-0');
-          entry.target.classList.remove('opacity-0', 'translate-y-10');
+          entry.target.classList.add("opacity-100", "translate-y-0");
+          entry.target.classList.remove("opacity-0", "translate-y-10");
         }
       },
       {
         threshold: 0.1,
-        rootMargin: '0px 0px -10% 0px',
+        rootMargin: "0px 0px -10% 0px",
       }
     );
-    
+
     if (bioRef.current) {
       observer.observe(bioRef.current);
     }
-    
+
     return () => {
       if (bioRef.current) {
         observer.unobserve(bioRef.current);
@@ -45,17 +45,17 @@ const About = () => {
               <img
                 src={Alekhya}
                 alt="Alekhya Alapati performing Kuchipudi"
-                className="rounded-lg shadow-lg w-full h-[600px] object-cover"
+                className="rounded-lg shadow-lg mx-auto w-full max-w-[300px] sm:max-w-[350px] md:max-w-[400px] lg:max-w-[400px] h-[350px] sm:h-[400px] md:h-[450px] mt-10"
               />
             </div>
             <div className="prose prose-lg max-w-none text-stone-700 leading-relaxed">
               <p className="mb-6">
-                <strong>Alekhya</strong> began her Kuchipudi journey at the age of 4
-                under the guidance of Guru Neelima Gaddamanugu. After 2 years,
-                she continued her training with Guru Smt. Revathi Komanduri,
-                where she built a strong foundation in the classical art form.
-                In 2017, after moving to Dallas, Alekhya resumed her tutelage
-                under Guru Smt. Manju Hema Malini Chavali, with whom she
+                <strong>Alekhya</strong> began her Kuchipudi journey at the age
+                of 4 under the guidance of Guru Neelima Gaddamanugu. After 2
+                years, she continued her training with Guru Smt. Revathi
+                Komanduri, where she built a strong foundation in the classical
+                art form. In 2017, after moving to Dallas, Alekhya resumed her
+                tutelage under Guru Smt. Manju Hemamalini Chavali, with whom she
                 continues to learn and grow as a dancer.
               </p>
 
@@ -70,12 +70,12 @@ const About = () => {
                 community.
               </p>
 
-              <blockquote className="italic border-l-4 border-amber-600 pl-4 py-2 my-8 bg-amber-50">
+              {/* <blockquote className="italic border-l-4 border-amber-600 pl-4 py-2 my-8 bg-amber-50">
                 "Kuchipudi isn't just a dance form to me; it's a way of
                 connecting with our cultural heritage and expressing emotions
                 that words alone cannot convey."
                 <footer className="text-right mt-2">- Alekhya Alapati</footer>
-              </blockquote>
+              </blockquote> */}
 
               <p className="mb-2">
                 Alekhya will be attending Case Western Reserve University, where
