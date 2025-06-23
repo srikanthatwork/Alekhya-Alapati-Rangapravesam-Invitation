@@ -348,7 +348,7 @@ const EventModal = ({ children }: EventModalProps) => {
                 </a>
               </div>
               <div className="flex items-start gap-3 text-amber-800">
-                <MapPin className="mt-1 w-9 h-9 sm:w-5 sm:h-5 md:w-5 md:h-5" />
+                <MapPin className="mt-1 w-9 h-9 sm:w-6 sm:h-5 md:w-6 md:h-6" />
                 <a
                   href={mapsUrl2}
                   target="_blank"
