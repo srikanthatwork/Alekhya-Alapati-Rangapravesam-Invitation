@@ -305,6 +305,18 @@ const Hero = () => {
                 </div>
               </div>
 
+              {/* Detailed Dress code information */}
+              <div className="bg-amber-700/50 backdrop-blur-sm rounded-lg p-4 mb-6 border border-amber-400/30">
+                <div className="text-center space-y-2">
+                  <p className="text-amber-100 font-semibold">
+               Dress Code
+                  </p>
+                  <p className="text-amber-200">Indian traditional or business casual to the main splash screen </p>
+                  {/* <p className="text-amber-200">
+                    followed by Dinner at 7:00 PM
+                  </p> */}
+                </div>
+              </div>
               {/* Detailed timing information */}
               <div className="bg-amber-700/50 backdrop-blur-sm rounded-lg p-4 mb-6 border border-amber-400/30">
                 <div className="text-center space-y-2">
