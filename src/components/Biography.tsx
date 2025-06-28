@@ -45,7 +45,7 @@ const About = () => {
               <img
                 src={Alekhya}
                 alt="Alekhya Alapati performing Kuchipudi"
-                className="rounded-lg shadow-lg mx-auto w-full max-w-[300px] sm:max-w-[350px] md:max-w-[400px] lg:max-w-[400px] h-[350px] sm:h-[400px] md:h-[450px] mt-10"
+                className="rounded-lg shadow-lg mx-auto w-full max-w-[300px] sm:max-w-[350px] md:max-w-[400px] lg:max-w-[400px] h-[350px] sm:h-[450px] md:h-[450px] mt-10"
               />
             </div>
             <div className="prose prose-lg max-w-none text-stone-700 leading-relaxed">
